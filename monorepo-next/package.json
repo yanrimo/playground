@@ -1,0 +1,8 @@
+{
+    "name": "monorepo-next",
+    "private": true,
+    "workspaces": [
+        "application1",
+        "common"
+    ]
+}
