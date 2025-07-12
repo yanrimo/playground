@@ -1,75 +1,20 @@
-# Nuxt Minimal Starter
+# Nuxt.js + PrimeVue + Tailwind CSS ダークモードサンプルリポジトリ
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+- ダークモード切り替え機能の実装
+- PrimeVueデフォルトスタイルをベースに、部分的なカスタマイズを行う場合のライト・ダークモード対応パターンの検証
 
-## Setup
+## 🚀 セットアップ
 
-Make sure to install dependencies:
+依存関係をインストール：
 
 ```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
 bun install
 ```
 
-## Development Server
+## 🛠 開発サーバー
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
+`http://localhost:3000` で開発サーバーを起動：
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
+bun dev
 ```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
